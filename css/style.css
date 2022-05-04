@@ -1,4 +1,17 @@
 body {
-    background-color: #cfcfcf;
+    background-color: #000;
 }
 
+.header h1{
+    color: #fff;
+    text-align: center;
+    font-family: oswald-medium, oswald, sans-serif ;
+    text-size-adjust: 100%;
+}
+
+.header h2{
+    color: #fff;
+    text-align: center;
+    font-family: oswald-medium, oswald, sans-serif ;
+    
+}    
