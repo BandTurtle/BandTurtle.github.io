@@ -2,16 +2,62 @@ body {
     background-color: #000;
 }
 
-.header h1{
-    color: #fff;
+.name {
     text-align: center;
     font-family: oswald-medium, oswald, sans-serif ;
-    text-size-adjust: 100%;
 }
 
-.header h2{
-    color: #fff;
-    text-align: center;
+.name a{
+    color: #f000d2;
     font-family: oswald-medium, oswald, sans-serif ;
-    
-}    
+    text-decoration: none;
+    font-size: 55px;
+}
+
+.name:hover a{
+    color: #fff;
+}
+ 
+
+.page-active {
+    font-family: oswald-medium, oswald, sans-serif ;
+}
+
+.page-link {
+    font-family: oswald-medium, oswald, sans-serif ;
+}
+
+.page-link a{
+    font-family: oswald-medium, oswald, sans-serif ;
+    text-decoration: none;
+    color:#f000d2;
+}
+
+.page-link:hover a{
+    color: #fff;
+}
+
+.page-active a{
+    font-family: oswald-medium, oswald, sans-serif ;
+    text-decoration: none;
+    color:#fff;
+}
+
+#page-links li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#nav-block {
+    text-align: center;
+}
+
+.text h1{
+    color: #f000d2;
+    font-family: oswald-medium, oswald, sans-serif ;
+    font-size: 100px;
+    text-align: center;
+
+}
