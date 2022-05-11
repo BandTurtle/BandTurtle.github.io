@@ -1,10 +1,16 @@
 body {
     background-color: #000;
+    margin: 0;
 }
 
 .name {
     text-align: center;
     font-family: oswald-medium, oswald, sans-serif ;
+    margin: auto;
+}
+
+.name h3{
+    color: #f000d2;
 }
 
 .name a{
@@ -23,12 +29,13 @@ body {
     font-family: oswald-medium, oswald, sans-serif ;
 }
 
-.page-link {
+.page-link { 
     font-family: oswald-medium, oswald, sans-serif ;
 }
 
 .page-link a{
     font-family: oswald-medium, oswald, sans-serif ;
+
     text-decoration: none;
     color:#f000d2;
 }
@@ -60,4 +67,29 @@ body {
     font-size: 100px;
     text-align: center;
 
+}
+
+.ContactBlock {
+    width: 25%;
+    margin: auto;
+    
+}
+
+.ContactText h1{
+    margin-bottom: 0;
+}
+
+.ContactText p{
+    margin-top: 5px;
+}
+
+.ContactText {
+    color: #f000d2;
+    font-family: oswald-medium, oswald, sans-serif 
+    
+}
+
+.formRapper label{
+    color: #f000d2;
+    font-family: oswald-medium, oswald, sans-serif 
 }
