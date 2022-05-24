@@ -23,6 +23,10 @@ body {
 .name:hover a{
     color: #fff;
 }
+
+header {
+    margin-bottom: 30px;
+}
  
 
 .page-active {
@@ -70,18 +74,17 @@ body {
 }
 
 .ContactBlock {
-    width: 25%;
+    width: 30%;
     margin: auto;
     
 }
 
 .ContactText h1{
-    margin-bottom: 0;
+    margin: auto;
+    font-family: oswald-medium, oswald, sans-serif 
+
 }
 
-.ContactText p{
-    margin-top: 5px;
-}
 
 .ContactText {
     color: #f000d2;
@@ -89,7 +92,18 @@ body {
     
 }
 
-.formRapper label{
+.AboutBlock {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.AboutText {
+    width: 45%;
     color: #f000d2;
     font-family: oswald-medium, oswald, sans-serif 
+}
+
+.AboutText h3{
+    margin: auto;
 }
