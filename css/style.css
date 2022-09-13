@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+div {
+    display: block;
+}
+
 .name {
     text-align: center;
     font-family: oswald-medium, oswald, sans-serif ;
@@ -99,11 +103,48 @@ header {
 }
 
 .AboutText {
+    text-align: center;
     width: 45%;
+    margin: auto;
     color: #f000d2;
     font-family: oswald-medium, oswald, sans-serif 
 }
 
+h3 {
+    text-align: center;
+}
+
 .AboutText h3{
     margin: auto;
+    text-align: center;
 }
+
+#FolioBlock {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+#FolioRwo1{
+float: left;
+}
+
+#ArtImgDiv {
+    float: left;
+}
+
+#PhotoImgDiv {
+    
+}
+
+.ArtImg {
+    width: 360px;
+    margin: auto;
+}
+
+
+.PhotoImg {
+    margin:  auto;
+    width: 360px;
+}
+
