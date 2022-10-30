@@ -1,10 +1,12 @@
 body {
-    background-color: #000;
+    /*background-color: #000; */
     margin: 0;
+    background: #000000 url("BandTurtle.github.io/assets/IMG_0164.png") no-repeat local 50% 50%;
 }
 
 div {
     display: block;
+
 }
 
 .name {
@@ -137,6 +139,7 @@ float: left;
 .ArtImg {
     width: 360px;
     margin: auto;
+
 }
 
 
@@ -145,3 +148,10 @@ float: left;
     width: 360px;
 }
 
+.CallOut {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    color: #f000d2;
+    font-family: oswald-medium, oswald, sans-serif 
+}
